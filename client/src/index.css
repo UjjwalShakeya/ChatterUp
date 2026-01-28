@@ -1,0 +1,14 @@
+/* imported google fonts here */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* imported tailwind css */
+@import "tailwindcss";
+
+* {
+    font-family: "Outfit", sans-serif;
+}
+
+/* hidding scroll bar for ui consistency */
+::-webkit-scrollbar{
+    display: none;
+}
