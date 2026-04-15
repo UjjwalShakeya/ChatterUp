@@ -12,6 +12,9 @@ node_modules
 client/node_modules
 server/node_modules
 
+# ignoring .env
+server/.env
+
 dist
 dist-ssr
 *.local
