@@ -4,7 +4,7 @@ import jwt from "jsonwebtoken";
 
 // middleware to protect routes
 
-export const protectRoute = async (req, res, next) => {
+const protectRoute = async (req, res, next) => {
     try {
         const token = req.headers.token;
 
@@ -22,3 +22,5 @@ export const protectRoute = async (req, res, next) => {
         return res.json({ success: false, message: error.message })
     }
 }
+
+export default protectRoute;
